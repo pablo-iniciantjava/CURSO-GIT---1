@@ -1,0 +1,116 @@
+#-----Bibliotecas---------
+try:
+    # Digite o número de dias
+    dias = int(input("Digite o número de dias: "))
+
+    # Calculando anos, meses e dias
+    anos = dias // 365 #Quando você escreve algo como anos = dias // 365, você está apenas calculando quantos anos completos existem no valor total de dias
+    #ANOS É A QUANTIDADE DE ANOS COMPLETOS QUE PODEM SER FORMADOS A PARTIR DE UM NÚMERO TOTAL DE DIAS.
+    #VARIÁVEL DIAS CONTÉM O NÚMERO DE DIAS TOTAIS. 
+    dias_restantes = dias % 365 # %365 calcula os dias restantes após contar os anos completos.
+    meses = dias_restantes // 30  #//30 calcula os meses completos com base nos dias restantes.
+    dias_finais = dias_restantes % 30 # %30 calcula os dias restantes após contar os anos completos.
+
+    # Exibindo o resultado
+    print(f"Calculando...\n{anos} ano(s)\n{meses} mes(es)\n{dias_finais} dia(s)")
+#O texto que aparece dentro das aspas duplas "Calculando..." é uma parte fixa da string. Esse texto será sempre exibido, não importa os valores das variáveis. O texto Calculando... é apenas uma string normal, que vai ser impressa antes de mostrar os resultados.
+except ValueError:
+    print("Erro: Por favor, insira um numero inteiro válido ")
+########################################################################################################################################################################################################
+
+As principais estruturas de controle condicional em Python são:
+
+if (se)
+
+elif (senão se)
+
+else (senão)
+
+if condição:
+    # Bloco de código para condição verdadeira
+elif outra_condição:
+    # Bloco de código para outra condição verdadeira
+else:
+    # Bloco de código se nenhuma das condições for verdadeira
+
+
+if: Testa a primeira condição.
+
+elif: Testa outras condições se a primeira for falsa.
+
+else: Executa um bloco de código se todas as condições forem falsas.
+
+
+Regra:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
