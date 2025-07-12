@@ -40,10 +40,37 @@ elif: Testa outras condições se a primeira for falsa.
 
 else: Executa um bloco de código se todas as condições forem falsas.
 
+EXECICIO RAIZ QUADRADA
 
-Regra:
+import math as mt
+#ENTRADA DE DADOS
+
+a = float(input("Digite o coeficiente a:"))
+b = float(input("Digite o coeficiente b:"))
+c = float(input("Digite o coeficiente c:"))
 
 
+#PROCESSAMENTO DADOS, CALCULAR
+
+delta = mt.pow(b,2) - (4*a*c)
+
+
+#ESTRUTURA CONDICIONAL IF ELIF ELSE
+
+if (delta<0):
+    print("Esta equação não possui raizes")
+
+#PROCESSAMENTO DADOS, CALCULAR RAIZES
+else:
+ x1 = (-b + mt.sqrt(delta)) / (2 * a)
+ x2 = (-b - mt.sqrt(delta)) / (2 * a)
+
+print(
+    f'X1 = {x1:.4f}\n'
+    f'X2 = {x2:.4f}'
+)
+
+########################################################################################################################################################################################################
 
 
 
