@@ -1,0 +1,40 @@
+package aula_08_16;
+
+import java.util.Scanner;
+
+public class teste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	    Scanner sc = new Scanner(System.in);
+	
+	    
+	    String nome;
+		System.out.println("Digite nome:");
+		nome = sc.nextLine();
+		System.out.println("ALUNO SENAI SUMARE, Endereço: Av. Rebouças, 3965 - Jardim Sao Carlos, Sumaré - SP, 13170-023 \n");
+
+		float nota1, nota2, media;
+		
+		System.out.println("Digite a primeira nota:");
+		nota1 = sc.nextFloat();
+		System.out.println("Digite a segunda nota: ");
+		nota2 = sc.nextFloat();
+		
+		media = (nota1 + nota2) /2;
+		
+		System.out.println("Média Nota Aluno:" + media);
+		
+		if (media >=7.0 && media <10){
+			System.out.println("\nAluno Aprovado");	
+		}else if (media ==10) {
+			System.out.println("\nAluno Exemplar");	
+		}
+		else {
+			System.out.println("\nVagabundo");	
+		}
+		
+	}
+
+}
